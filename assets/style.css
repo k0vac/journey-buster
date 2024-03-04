@@ -1,0 +1,126 @@
+.journeyblock {
+    background: linear-gradient(0deg, rgba(84,25,20,1) 0%, rgba(84,25,20,0) 100%);
+    border-radius: 0px;
+    border: 1px solid #ff4d3c;
+  }
+
+#m1{ background-image: url("../assets/img/aiuser.webp");}
+#m2 { background-image: url("../assets/img/report.gif");}
+.nav-item {
+    filter:brightness(0.5);
+}
+
+.nav-item img {
+    width: 16px;
+}
+
+.lbd {
+    filter: hue-rotate(250deg);
+}
+
+.lbd:hover {
+    filter: hue-rotate(250deg) brightness(1.5);
+}
+
+.lbkf {
+    filter: hue-rotate(160deg);
+}
+
+.lbkf:hover {
+    filter: hue-rotate(160deg) brightness(1.5);
+}
+
+.btnTemp {
+    background: linear-gradient(0deg, rgba(84,25,20,1) 0%, rgba(84,25,20,0) 100%);
+    border-radius: 0px;
+    border: 1px solid #ff4d3c;
+    color: #ff4d3c;
+    font-family:"Bahnschrift";
+    position: absolute;
+    bottom: 4%;
+    width:80%;
+}
+.nav-item:hover {
+    filter: none;
+}
+.main{
+    
+    background-size:cover;
+    background-position:center;
+}
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../assets/BAHNSCHRIFT.TFT');
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/DMSANS.ttf');
+}
+
+
+body {
+    background-image: url("../assets/img/jbwp1440p.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: 'DM Sans', sans-serif
+}
+
+h1 {
+    font-family: 'Bahnschrift'
+}
+
+.card-title {
+    font-family: 'Bahnschrift';
+    color: #f24939;
+}
+
+.card-text {
+    width:fit-content;
+}
+
+.tacs .col {
+    border: 1px solid #f2f2f221;
+    background: linear-gradient(0deg, rgb(25, 25, 25) 0%, rgba(25,25,25,0) 100%);
+    margin: 1rem;
+}
+
+.tacs .col a {
+    font-family: "Bahnschrift";
+    color:white;
+}
+
+.tacs .col a:hover {
+    filter:brightness(1.3);
+}
+
+.row ul li {
+    list-style: none;
+    border-left: 5px groove #ffffff;
+    padding-left: 10px;
+}
+
+
+#dcjoin{
+    border: 1px solid rgb(114,137,218);
+    background: linear-gradient(0deg, rgb(114,137,218) 0%, rgba(114,137,218,0) 100%);
+}
+
+#kfjoin {
+    border: 1px solid #13C3FF;
+    background: linear-gradient(0deg, #13C3FF 0%, #13C3FF00 100%);
+}
+
+
+@keyframes fadein {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+body {
+    animation-name: fadein;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
